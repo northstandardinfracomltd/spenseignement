@@ -229,7 +229,7 @@ h2 {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -258,6 +258,7 @@ h2 {
   border: 2px solid #008353;
   border-radius: 30px;
   padding: 10px;
+
 }
 
 .icon {
@@ -282,7 +283,7 @@ h2 {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   text-align: center;
 }
 
@@ -303,7 +304,32 @@ h2 {
 
 
 
-.button-full-width {
+.button-full-widthB {
+  width: 100%;
+  background-color: #000000;
+  border-radius: 12px;
+  color: white;
+  height: 46px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+}
+
+
+.button-full-widthR {
+  width: 100%;
+  background-color: #DF3926;
+  border-radius: 12px;
+  color: white;
+  height: 46px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+}
+
+
+
+.button-full-widthG {
   width: 100%;
   background-color: #008353;
   border-radius: 12px;
@@ -313,3 +339,4 @@ h2 {
   padding: 10px;
   border: none;
 }
+
