@@ -467,3 +467,75 @@ h2 {
 .IFOP p {
   font-size: 14px;
 }
+
+
+
+  
+.ficus3 {
+  text-align: center !important;
+  padding-right: 20px !important;
+    padding-left: 20px !important;
+  padding-top: 21px !important;
+  padding-bottom: 20px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}    
+}
+
+
+
+.ficus3:focus {
+  outline: none !important;
+  box-shadow: 0 0 0px 4px #ff000021 !important;
+}
+
+
+.regions-picker {
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 41px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 29px;
+  margin-bottom: -10px;
+}
+
+.regions-picker:hover {
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
+
+
+
+
+
+.image-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.titlePTRE {
+  text-align: center;
+  font-size: 12px;
+}
