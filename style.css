@@ -226,7 +226,8 @@ h2 {
   background-color: #008353;
   display: flex;
   flex-wrap: wrap;
-  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .column {
@@ -240,6 +241,16 @@ h2 {
   .column {
     flex-basis: 100%;
   }
+}
+
+
+.mignon {
+  text-align: right;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
+margin-top: 36px;
+  margin-right: 20px;
 }
 
 
@@ -950,43 +961,47 @@ input::placeholder {
 
 
 .nsi-engine:hover {
-  padding: 8px !important;
-font-size: 16px !important;
   letter-spacing: 1 !important;
-  border: solid 1px #454c56 !important;
-  border-radius: 8px !important;
-  width: 86% !important;
-  margin-left: 46px !important;
-  background-color: #1c2128 !important;
-  box-shadow: 0 0 0px 4px #008eff38 !important;
-font-family: "Saoecom2font" !important;
-    color: #adbac7 !important;
-  margin-top: 29px;
-  margin-bottom: 8px;
-  height: 42px;
+  border: solid 1px #ffffff !important;
+  border-radius: 0px !important;
+  width: 470px !important;
+  margin-left: 10px !important;
+  background-color: #363636 !important;
+  height: 58px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: transform 0s;
-    text-align: center;
-
+  text-align: center;
+  
+      padding: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
+  
+  
 }
 
 .nsi-engine:focus {
-  padding: 8px !important;
-font-size: 16px !important;
   letter-spacing: 1 !important;
-  border: solid 1px #454c56 !important;
-  border-radius: 8px !important;
-  width: 86% !important;
-  margin-left: 46px !important;
-  background-color: #1c2128 !important;
-  box-shadow: 0 0 0px 4px #008eff38 !important;
-font-family: "Saoecom2font" !important;
-    color: #adbac7 !important;
-  margin-top: 29px;
-  margin-bottom: 8px;
-  height: 42px;
+  border: solid 1px #ffffff !important;
+  border-radius: 0px !important;
+  width: 470px !important;
+  margin-left: 10px !important;
+  background-color: #363636 !important;
+  height: 58px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: transform 0s;
-    text-align: center;
-
+  text-align: center;
+  
+      padding: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
+  
+  
 }
 
 .nsi-engine:placeholder {
