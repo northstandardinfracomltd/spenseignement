@@ -541,32 +541,35 @@ margin-top: 2px;
 }
 
 
+  .regions-picker::after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIiAvPjwvc3ZnPgo=");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
 
-  
+
 .ficus3 {
-    position: relative;
-    display: inline-block;
   padding-right: 20px !important;
     padding-left: 20px !important;
   padding-top: 21px !important;
   padding-bottom: 20px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  
+    display: grid;
+  grid-template-columns: 90% 10%;
+  align-items: center;
 }    
 
-
-
- .ficus3 select {
-    padding-right: 20px;
-  }
-
-
-  .ficus3 .icon {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-  }
 
 
 .ficus3:focus {
@@ -590,7 +593,7 @@ margin-top: 2px;
   border-radius: 8px;
   font-family: "Saoecom2font" !important;
   color: #feffff !important;
-  background-color: #347d39 !important;
+  background-color: transparent !important;
   height: 41px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -598,6 +601,8 @@ margin-top: 2px;
   margin-top: 29px;
   margin-bottom: -10px;
   width: 100%;
+      position: relative;
+
 }
 
 .regions-picker:hover {
