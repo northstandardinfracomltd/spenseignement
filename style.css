@@ -720,8 +720,9 @@ h2 {
 
 .tabs-column {
   width: 85%;
-  padding-right: 40px;
+  padding-right: 50px;
   padding-top: 2px;
+  padding-left: 40px;
 }
 
 .tabs {
@@ -752,6 +753,7 @@ h2 {
   color: #333;
   text-decoration: none;
   font-family: "semi" !important;
+  font-size: 16px;
 }
 
 /* Style supplémentaire pour la version mobile */
@@ -799,11 +801,15 @@ letter-spacing: 0.2px;
 letter-spacing: 0.2px;
 }
 
-.close-icon {
-  color: white;
-  cursor: pointer;
-}
 
+
+  .close-icon img {
+    max-width: 20px;
+    cursor: pointer;
+    padding-top: 6px;
+    margin-right: 6px;
+    margin-left: -15px;
+  }
 
 
 
