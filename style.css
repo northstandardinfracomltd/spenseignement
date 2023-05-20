@@ -347,7 +347,7 @@ h2 {
 .containerBP {
   display: flex;
   flex-direction: column;
-  max-width: 1000px !important;
+  max-width: 960px !important;
   background: white;
   margin-left: auto;
   margin-right: auto;
@@ -365,6 +365,8 @@ h2 {
 
   .columnBP {
     width: 25%;
+    padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
@@ -378,4 +380,32 @@ h2 {
 .paragraphSP {
   font-size: 12px;
     text-align: left;
+}
+
+
+
+
+
+.full-width-image {
+  width: 100%;
+}
+
+.titleBDE {
+  font-size: 20px;
+  color: #008353;
+      text-align: left;
+
+}
+
+.paragraphBDE {
+  font-size: 14px;
+      text-align: left;
+
+}
+
+
+.striped-div {
+  width: 100%;
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  background: repeating-linear-gradient(-45deg, #009F4D, #009F4D 94px, #009A4A 94px, #009A4A 188px);
 }
