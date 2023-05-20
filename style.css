@@ -801,6 +801,7 @@ margin-top: 2px;
   top: 0;
   background-color: #f2f2f2;
   z-index: 100;
+  Height: 70px;
 }
 
 
@@ -845,14 +846,14 @@ margin-top: 2px;
 
 .tabs li a {
   display: block;
-    padding-top: 17px;
+    padding-top: 22px;
     padding-bottom: 16px;
   text-align: center;
   background-color: #f2f2f2;
-  color: #333;
+  color: #221F20 !important;
   text-decoration: none;
   font-family: "semi" !important;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 /* Style supplémentaire pour la version mobile */
@@ -874,15 +875,15 @@ margin-top: 2px;
 
 
 .banner {
-  background-color: black;
+  background-color: #221F20;
   color: white;
-  font-size: 17px;
+  font-size: 19px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   padding-left: 20px;
-  height: 56px;
+  height: 70px;
    font-family: "simple" !important;
 letter-spacing: 0.2px;
   text-align: center;
@@ -895,7 +896,7 @@ letter-spacing: 0.2px;
 }
 
 .link {
-  color: yellow;
+  color: #EDE822;
  font-family: "simple" !important;
 letter-spacing: 0.2px;
 }
@@ -908,6 +909,7 @@ letter-spacing: 0.2px;
     padding-top: 6px;
     margin-right: 6px;
     margin-left: -15px;
+    opacity: 0.8;
   }
 
 
