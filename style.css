@@ -226,10 +226,14 @@ h2 {
 
 
 .custom-container {
-  background-color: #FFFFFF;
-  display: flex;
-  flex-wrap: wrap;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .custom-column {
   flex-basis: 25%;
@@ -242,4 +246,70 @@ h2 {
   .custom-column {
     flex-basis: 100%;
   }
+}
+
+
+
+
+
+
+.container2 {
+  background-color: white;
+  border: 2px solid #008353;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.title2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.containerTED {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.columnTED {
+  flex-basis: 33% !important;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .columnTED {
+    flex-basis: 100%;
+  }
+}
+
+
+
+
+
+.button-full-width {
+  width: 100%;
+  background-color: #008353;
+  border-radius: 12px;
+  color: white;
+  height: 46px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
 }
