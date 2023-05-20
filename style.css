@@ -979,3 +979,44 @@ font-family: "Saoecom2font" !important;
   color: yellow !important;
     text-align: center;
 }
+
+
+
+
+
+    .dropdownooo {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+
+    }
+
+    .dropdownooo select {
+      width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      
+          background-color: #363636;
+    border-radius: 0px;
+      border: 1px solid #ffffff;
+    color: white;
+    height: 58px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    font-family: "semi";
+    font-size: 18px;
+    }
+
+
+    .dropdown-iconooo {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      max-height: 30px;
+      pointer-events: none; /* Désactive les événements du clic sur l'icône */
+    }
