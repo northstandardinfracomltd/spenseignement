@@ -228,13 +228,20 @@ h2 {
   flex-wrap: wrap;
   padding-top: 10px;
   padding-bottom: 10px;
+  justify-content: center;
 }
 
 .column {
-  flex-basis: 50%;
+  width: 100% !important;
+  max-width: 960px;
   padding: 0px;
   color: #fff;
-  text-align: center;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+    justify-content: right;
+
 }
 
 @media (max-width: 767px) {
@@ -807,7 +814,7 @@ margin-top: 2px;
 
 
 .logo-column {
-  width: 15%;
+  width: 20%;
 }
 
 .logo-column img {
@@ -819,7 +826,7 @@ margin-top: 2px;
 }
 
 .tabs-column {
-  width: 85%;
+  width: 80%;
   padding-right: 50px;
   padding-top: 2px;
   padding-left: 40px;
