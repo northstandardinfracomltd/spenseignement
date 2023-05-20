@@ -36,7 +36,11 @@
     </style>
 </head>
 <body>
-  
+  <div class="banner">
+  <span class="textzz">Bannière temporelle en fonction des événements avec <span class="link">lien de redirection</span></span>
+  <span class="close-icon" onclick="this.parentElement.style.display='none';">&#10006;</span>
+</div>
+
   
 <div class="menu-container">
   <div class="logo-column">
@@ -75,9 +79,39 @@
       <p>Lorem ipsum dolor</p>
     </div>
     <div class="column">
-      <p>Sit amet consectetur</p>
+     
+      
+      
+      <div class="search-container">
+                <input
+                  class="nsi-engine"
+                  placeholder="Filter modules"
+                  id="searchInput"
+                />
+              </div>
+      
+      
+      
+      
     </div>
   </div>
+  
+  
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+              var value = $(this).val().toLowerCase();
+              $(".moduleitem").filter(function () {
+                $(this).toggle(
+                  $(this).text().toLowerCase().indexOf(value) > -1
+                );
+              });
+            });
+          });
+        </script>
+  
+  
 </body>
 </html>
 
@@ -94,7 +128,7 @@
 </head>
 <body>
   <div class="custom-container">
-    <div class="custom-column">
+    <div class="custom-column moduleitem">
         <div class="container2">
   <div class="icon">
     <img src="https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/Vector.svg?v=1684589548128" alt="Icon" width="40px">
@@ -104,7 +138,7 @@
   </div>
 </div>
     </div>
-    <div class="custom-column">
+    <div class="custom-column moduleitem">
         <div class="container2">
   <div class="icon">
     <img src="https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/Vector.svg?v=1684589548128" alt="Icon" width="40px">
@@ -114,7 +148,7 @@
   </div>
 </div>
     </div>
-    <div class="custom-column">
+    <div class="custom-column moduleitem">
         <div class="container2">
   <div class="icon">
     <img src="https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/Vector.svg?v=1684589548128" alt="Icon" width="40px">
@@ -124,7 +158,7 @@
   </div>
 </div>
     </div>
-    <div class="custom-column">
+    <div class="custom-column moduleitem">
         <div class="container2">
   <div class="icon">
     <img src="https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/Vector.svg?v=1684589548128" alt="Icon" width="40px">
@@ -138,56 +172,56 @@
   
 
   <div class="containerTED">
-    <div class="columnTED">
+    <div class="columnTED moduleitem">
       <button class="button-full-widthG">Lorem</button>
 
     </div>
-    <div class="columnTED">
+    <div class="columnTED moduleitem">
       <button class="button-full-widthR">Lorem</button>
 
     </div>
-        <div class="columnTED">
+        <div class="columnTED moduleitem">
       <button class="button-full-widthB">Lorem</button>
 
     </div>
     
-        <div class="columnTED">
-      <button class="button-full-widthR">Lorem</button>
+        <div class="columnTED moduleitem">
+      <button class="button-full-widthR">Lorem22</button>
 
     </div>
-    <div class="columnTED">
+    <div class="columnTED moduleitem">
       <button class="button-full-widthB">Lorem</button>
 
     </div>
-        <div class="columnTED">
+        <div class="columnTED moduleitem">
       <button class="button-full-widthG">Lorem</button>
 
     </div>
     
     
-        <div class="columnTED">
-      <button class="button-full-widthB">Lorem</button>
+        <div class="columnTED moduleitem">
+      <button class="button-full-widthB">Lorem92</button>
 
     </div>
-    <div class="columnTED">
+    <div class="columnTED moduleitem">
       <button class="button-full-widthG">Lorem</button>
 
     </div>
-        <div class="columnTED">
+        <div class="columnTED moduleitem">
       <button class="button-full-widthR">Lorem</button>
 
     </div>
     
     
-        <div class="columnTED">
+        <div class="columnTED moduleitem">
       <button class="button-full-widthG">Lorem</button>
 
     </div>
-    <div class="columnTED">
+    <div class="columnTED moduleitem">
       <button class="button-full-widthR">Lorem</button>
 
     </div>
-        <div class="columnTED">
+        <div class="columnTED moduleitem">
       <button class="button-full-widthB">Lorem</button>
 
     </div>
