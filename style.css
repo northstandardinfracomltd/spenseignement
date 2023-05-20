@@ -41,11 +41,26 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 @font-face {
-  font-family: mainfont;
-  font-weight: bold;
-  src: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/mainfont?v=1684612780446")
+  font-family: gras;
+  font-weight: 800;
+  src: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/WhitneyBold_normal_normal.woff2?v=1684612807061")
     format("opentype");
 }
+
+@font-face {
+  font-family: semi;
+  font-weight: 500;
+  src: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/WhitneySemibold_normal_normal.woff2?v=1684612844063")
+    format("opentype");
+}
+
+@font-face {
+  font-family: simple;
+  font-weight: 500;
+  src: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/WhitneyBook_normal_normal.woff2?v=1684612885116")
+    format("opentype");
+}
+
 
 /* Our remix on glitch button */
 .btn--remix {
@@ -705,6 +720,8 @@ h2 {
 
 .tabs-column {
   width: 85%;
+  padding-right: 40px;
+  padding-top: 2px;
 }
 
 .tabs {
@@ -734,7 +751,7 @@ h2 {
   background-color: #f2f2f2;
   color: #333;
   text-decoration: none;
-  font-family: "mainfont" !important;
+  font-family: "semi" !important;
 }
 
 /* Style supplémentaire pour la version mobile */
@@ -758,19 +775,28 @@ h2 {
 .banner {
   background-color: black;
   color: white;
-  font-size: 14px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  padding-left: 20px;
+  height: 56px;
+   font-family: "simple" !important;
+letter-spacing: 0.2px;
+  text-align: center;
 }
 
 .textzz {
   color: white;
+  font-family: "simple" !important;
+letter-spacing: 0.2px;
 }
 
 .link {
   color: yellow;
+ font-family: "simple" !important;
+letter-spacing: 0.2px;
 }
 
 .close-icon {
