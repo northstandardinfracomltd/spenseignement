@@ -670,3 +670,69 @@ h2 {
     flex: 2 0px;
   }
 }
+
+
+
+
+
+
+
+.menu-container {
+  display: flex;
+  position: sticky !important;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 100;
+}
+
+
+
+.logo-column {
+  width: 10%;
+}
+
+.logo-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tabs-column {
+  width: 90%;
+}
+
+.tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.tabs li {
+  flex: 1;
+}
+
+.tabs li a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style supplémentaire pour la version mobile */
+@media (max-width: 767px) {
+  .menu-container {
+    flex-wrap: wrap;
+  }
+  
+  .logo-column {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .tabs-column {
+    width: 100%;
+  }
+}
+
