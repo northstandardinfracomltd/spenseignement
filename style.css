@@ -406,6 +406,64 @@ h2 {
 
 .striped-div {
   width: 100%;
-  height: 200px; /* Ajustez la hauteur selon vos besoins */
   background: repeating-linear-gradient(-45deg, #009F4D, #009F4D 94px, #009A4A 94px, #009A4A 188px);
+}
+
+
+
+
+
+
+
+.containerDISTRICT {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px !important;
+  background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.columnDISTRICT  {
+  width: 100%;
+  text-align: left !important;
+}
+
+@media (min-width: 768px) {
+  .containerDISTRICT  {
+    flex-direction: row;
+  }
+
+  .columnDISTRICT  {
+    width: 50%;
+    padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+
+
+
+.titreXER {
+  display: inline-block;
+  background-color: #EDE822;
+  padding: 5px 10px;
+}
+
+
+
+.IFOP {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.IFOP h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.IFOP p {
+  font-size: 14px;
 }
