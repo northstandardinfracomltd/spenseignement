@@ -621,18 +621,30 @@ margin-top: 2px;
 
 
 .image-container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .image-container img {
-  width: 100%;
+  width: 96%;
   height: auto;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 65px;
+  
 }
 
 .titlePTRE {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px !important;
+  font-family: "semi";
+  color: #363636;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 
@@ -890,9 +902,9 @@ letter-spacing: 0.2px;
 
 
 .search-container {
-  padding: 20px;
-  text-align: right;
-  padding-right: 47px;
+  padding: 0px;
+  text-align: left;
+  padding-right: 0px;
   padding-left: 0px;
 }
 @media screen and (max-width: 980px) {
@@ -909,29 +921,31 @@ letter-spacing: 0.2px;
 
 
 .nsi-engine {
-  padding: 8px !important;
-font-size: 16px !important;
   letter-spacing: 1 !important;
-  border: solid 1px #454c56 !important;
-  border-radius: 8px !important;
-  width: 86% !important;
-  margin-left: 46px !important;
-  background-color: #1c2128 !important;
-  box-shadow: 0 0 0px 4px #454c5647 !important;
-font-family: "Saoecom2font" !important;
-    color: #adbac7 !important;
-  margin-top: 29px;
-  margin-bottom: 8px;
-  height: 42px;
+  border: solid 1px #ffffff !important;
+  border-radius: 0px !important;
+  width: 470px !important;
+  margin-left: 10px !important;
+  background-color: #363636 !important;
+  height: 58px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: transform 0s;
   text-align: center;
+  
+      padding: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
+  
+  
 }
 
 input::placeholder {
-font-family: "Saoecom2font" !important;
-    color: #adbac73b !important;
-  letter-spacing: 1 !important;
-  font-size: 16px !important;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
 }
 
 
