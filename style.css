@@ -577,6 +577,8 @@ margin-top: 2px;
   }
 }
 
+*:focus {outline:none}
+
 
 
 .titreXER {
@@ -589,6 +591,7 @@ margin-top: 2px;
     padding-bottom: 16px;
     padding-left: 23px;
     padding-right: 23px;
+  color: #363636;
 }
 
 
