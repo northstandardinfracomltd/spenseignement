@@ -388,6 +388,15 @@ margin-top: 36px;
       color: #ffffff;
   font-family: "semi";
   font-size: 18px;
+    cursor: pointer;
+}
+
+
+.button-full-widthB:hover {
+  box-shadow: 0 0 0px 4px #00000030 !important;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.0s;
 }
 
 
@@ -403,9 +412,15 @@ margin-top: 36px;
       color: #ffffff;
   font-family: "semi";
   font-size: 18px;
+    cursor: pointer;
 }
 
-
+.button-full-widthR:hover {
+  box-shadow: 0 0 0px 4px #df39263b !important;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.0s;
+}
 
 .button-full-widthG {
   width: 100%;
@@ -419,9 +434,16 @@ margin-top: 36px;
     color: #ffffff;
   font-family: "semi";
   font-size: 18px;
+    cursor: pointer;
+  
 }
 
-
+.button-full-widthG:hover {
+  box-shadow: 0 0 0px 4px #02835340 !important;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.0s;
+}
 
 
 
@@ -464,7 +486,7 @@ margin-top: 36px;
     padding-bottom: 16px;
   padding-left: 23px;
   padding-right: 23px;
-
+color: #363636;
 }
 
 .paragraphSP {
@@ -487,6 +509,13 @@ margin-top: 2px;
   margin-right: auto;
   margin-left: 0px;
   opacity: 0.8;
+}
+
+.full-width-image:hover {
+  box-shadow: 0 0 0px 4px #008eff38 !important;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.0s;
 }
 
 .titleBDE {
