@@ -106,13 +106,16 @@ a:not(.btn--remix):visited {
   font-weight: normal;
   font-size: 1.1rem;
   color: #000;
-  text-decoration: none;
   border-style: none;
+    text-decoration: none !important;
+
 }
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
   white-space: nowrap;
+    text-decoration: none !important;
+
 }
 
 .divider {
@@ -125,11 +128,15 @@ END Glitch hello-app default styles
 body {
   font-family: HK Grotesk;
   background-color: white;
+    text-decoration: none !important;
+
 }
 
 
 body {
     margin: 0px !important;
+    text-decoration: none !important;
+
 }
 
 
@@ -853,12 +860,14 @@ margin-top: 2px;
 
 .logo-column {
   width: 20%;
+  vertical-align: middle !important;
 }
 
 .logo-column img {
-  max-width: 82%;
+  max-height: 80%;
   margin-left: 10px;
-vertical-align: center;  
+vertical-align: middle !important;
+  margin-top: 8px;
 }
 
 .tabs-column {
@@ -930,18 +939,23 @@ vertical-align: center;
    font-family: "simple" !important;
 letter-spacing: 0.2px;
   text-align: center;
+    text-decoration: none !important;
+
 }
 
 .textzz {
   color: white;
   font-family: "simple" !important;
 letter-spacing: 0.2px;
+  text-decoration: none !important;
 }
 
 .link {
   color: #EDE822;
  font-family: "simple" !important;
 letter-spacing: 0.2px;
+    text-decoration: none !important;
+
 }
 
 
