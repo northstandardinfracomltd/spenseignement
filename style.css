@@ -717,13 +717,18 @@ margin-top: 2px;
   justify-content: center;
   height: 36px;
   max-width: max-content;
-  background-color: rgb(33, 33, 33, 0.07);
+  background-color: #DF3926;
   border-radius: 100px;
-  color: #2f2f2f;
+  color: #ffffff !important;
   line-height: 0;
-  margin: 0.6em 0;
   font-size: 1rem;
-  padding: 0 1.3em;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-family: "simple" !important;
+  margin-left: 2px;
+  margin-top: 10px;
 }
 
 .footer ul {
@@ -744,6 +749,23 @@ margin-top: 2px;
     font-family: "simple" !important;
   color: #363636 !important;
   font-size: 18px !important;
+}
+
+.footerbab2 {
+    font-family: "simple" !important;
+  color: #a39a9d !important;
+  font-size: 18px !important;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+
+.footerbab3 {
+    font-family: "simple" !important;
+  color: #a39a9d !important;
+  font-size: 18px !important;
+  margin-top: 10px;
+  margin-left: 4px;
 }
 
 .footer a {
@@ -834,11 +856,9 @@ margin-top: 2px;
 }
 
 .logo-column img {
-  max-width: 92%;
-  height: auto;
-  margin-top: 13px;
+  max-width: 82%;
   margin-left: 10px;
-  margin-bottom: 9px;
+vertical-align: center;  
 }
 
 .tabs-column {
