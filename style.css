@@ -688,10 +688,7 @@ margin-top: 2px;
 }
 
 .footer__logo {
-  font-family: 'Pacifico', cursive;
-  font-weight: 400;
-  text-transform: lowercase;
-  font-size: 1.5rem;
+  width: 350px;
 }
 
 .footer__addr h2 {
