@@ -626,6 +626,7 @@ margin-top: 2px;
     margin-bottom: 30px;
     font-family: "simple";
     line-height: 36px;
+      font-weight: normal;
 }
 
 .IFOP p {
@@ -633,6 +634,74 @@ margin-top: 2px;
       font-family: "semi";
     margin-bottom: 20px;
 
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.IFOP h1 {
+    text-decoration: none !important;
+}
+
+  
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.seconddd {
+  margin-top: 50px;
+
+}
+
+  
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.footer {
+    margin-top: -25px;
+}
+
+  
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.footer__logo {
+    width: 95% !important;
+  margin-top: 40px;
+}
+
+  
+}
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.image-container {
+    display: none;
+}
+
+  
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.titlePTRE {
+    display: none;
+}
+
+  
 }
 
 
@@ -1160,7 +1229,7 @@ html, body {
     padding-right: 10px;
     margin-top: 2px;
     margin-left: 5px;
-
+  margin-bottom: 30px !important;
 }
 
   
@@ -1203,7 +1272,7 @@ html, body {
   letter-spacing: 1 !important;
   border: solid 1px #ffffff !important;
   border-radius: 0px !important;
-  width: 470px
+  width: 470px;
   margin-left: 10px !important;
   background-color: #363636 !important;
   height: 58px;
