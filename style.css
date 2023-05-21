@@ -1811,8 +1811,21 @@ line-height: 1.3 !important;
           margin-bottom: 10px;
         }
 
+        .deaaaa {
+            height: 300px;
+          max-width: 100%;
+          background-image: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/dzeaduheziadzud.png?v=1684686017159");
+          background-size: cover;
+            background-repeat: no-repeat;
+          text-align: center;
+          padding: 20px;
+          font-family: "simple";
+          color: #ffffff;
+          border-radius: 16px;
+          margin-bottom: 10px;
+        }
 
-        .outilscoupe {
+.outilscoupe {
             height: 300px;
           max-width: 100%;
           background-image: url("https://cdn.glitch.global/3c7125fe-54ef-4fce-9798-577048a3b513/dzeaduheziadzud.png?v=1684686017159");
