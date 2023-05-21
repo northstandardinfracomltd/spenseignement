@@ -1576,9 +1576,9 @@ input::placeholder {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 0px;
-  border-radius: 14px !important;
+  border-radius: 0px !important;
   border-style: solid;
-  border: 1px solid rgb(41 101 203 / 21%);
+  border: 1px solid rgb(242 242 242);
   margin-bottom: 5px !important;
     position: relative;
   top: 0;
@@ -1588,7 +1588,7 @@ input::placeholder {
 
 .entranceZ13000P31 {
   font-size: 22px !important;
-    font-family: "Saoecom2fontlight" !important;
+    font-family: "simple" !important;
 line-height: 1.3 !important;
   letter-spacing: 0.01em !important;
   color: #221F20 !important;
@@ -1665,7 +1665,7 @@ margin-top: -8px !important;
     margin-left: 25px !important;
     margin-right: 10px !important;
     border-style: dashed;
-    background-color: #dc3136;
+    background-color: #008353;
     color: #ffffff !important;
     border: 1px solid #dc3136;
     text-align: left !important;
