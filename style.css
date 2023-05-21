@@ -103,7 +103,6 @@ to this section's matching END comment to see page-specific styles.
 a:not(.btn--remix):visited {
   font-family: HK Grotesk;
   font-style: normal;
-  font-weight: normal;
   font-size: 1.1rem;
   color: #000;
   border-style: none;
@@ -178,7 +177,6 @@ body {
   color: #2800FF;
   font-family: HK Grotesk;
   font-style: normal;
-  font-weight: bold;
   font-size: 100px;
   line-height: 105%;
   margin: 0;
@@ -230,7 +228,6 @@ h2 {
 /* Links that open files in the editor */
 .fileopener {
   cursor:pointer;
-  font-weight:bold;
   border-bottom:3px solid var(--color-primary);
   color: var(--color-secondary);
 }
@@ -352,7 +349,6 @@ margin-top: 36px;
 
 .title2 {
   text-align: center;
-  font-weight: bold;
   color: #363636;
   font-family: "semi";
   font-size: 22px;
@@ -1099,6 +1095,108 @@ letter-spacing: 0.2px;
     width: 100px !important;
   }
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.close-icon{
+  display: none;
+  text-align: center !important;
+}
+  
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.columnTED {
+  flex-basis: 100% !important;
+}}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.containerTED {
+  padding-right: 7px !important;
+}}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.title2 {
+  font-family: "semi"  !important;
+}}
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+
+.titleBDE {
+    font-size: 24px;
+    color: #008353;
+    text-align: left;
+    font-family: "semi";
+  margin-left: 5px;
+} 
+}
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.paragraphBDE {
+    font-size: 16px;
+    text-align: left;
+    color: #363636;
+    font-family: "simple";
+    line-height: 24px;
+    padding-right: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+
+}
+
+  
+}
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.paragraphSP {
+    font-size: 18px;
+    text-align: center;
+    color: #363636;
+    font-family: "semi";
+    line-height: 26px;
+    padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+    margin-top: 2px;
+}
+}
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.columnBP {
+    width: 95%;
+  padding-left: 20px !important;
+}
+
+  
+}
+
 
 
 .nsi-engine {
