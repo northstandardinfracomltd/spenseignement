@@ -276,6 +276,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-bottom: 15px !important;
     justify-content: right;
 
 }
@@ -1084,10 +1085,10 @@ vertical-align: middle !important;
   font-size: 19px;
 }
 
-/* Style supplémentaire pour la version mobile */
 @media (max-width: 767px) {
   .menu-container {
     flex-wrap: wrap;
+    
   }
   
   .logo-column {
@@ -1273,7 +1274,7 @@ html, body {
   border: solid 1px #ffffff !important;
   border-radius: 0px !important;
   width: 470px;
-  margin-left: 10px !important;
+  margin-left: 10px;
   background-color: #363636 !important;
   height: 58px;
   margin-top: 20px;
@@ -1307,8 +1308,8 @@ html, body {
   transition: transform 0s;
   text-align: center;
   
-      padding: 10px;
-    padding-left: 10px;
+      padding: 10px !important;
+    padding-left: 10px !important;
     color: #ffffff;
     font-family: "simple";
     font-size: 20px;
@@ -1336,8 +1337,8 @@ html, body {
   transition: transform 0s;
   text-align: center;
   
-      padding: 10px;
-    padding-left: 10px;
+      padding: 10px !important;
+    padding-left: 10px !important;
     color: #ffffff;
     font-family: "simple";
     font-size: 20px;
@@ -1364,8 +1365,8 @@ html, body {
   transition: transform 0s;
   text-align: center;
   
-      padding: 10px;
-    padding-left: 10px;
+      padding: 10px !important;
+    padding-left: 10px !important;
     color: #ffffff;
     font-family: "simple";
     font-size: 20px;
@@ -1389,8 +1390,8 @@ input::placeholder {
   letter-spacing: 1 !important;
   border: solid 1px #ffffff !important;
   border-radius: 0px !important;
-  width: 470px !important;
-  margin-left: 10px !important;
+  width: 470px;
+  margin-left: 10px;
   background-color: #363636 !important;
   height: 58px;
   margin-top: 20px;
@@ -1407,12 +1408,37 @@ input::placeholder {
   
 }
 
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.mignon {
+    text-align: center;
+    color: #ffffff;
+    font-family: "simple";
+    font-size: 20px;
+    margin-top: 36px;
+    margin-right: 0px !important;
+      margin-left: 0px !important;
+  margin-bottom: 7px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+}
+
+
+
+
+
 .nsi-engine:focus {
   letter-spacing: 1 !important;
   border: solid 1px #ffffff !important;
   border-radius: 0px !important;
-  width: 470px !important;
-  margin-left: 10px !important;
+  width: 470px;
+  margin-left: 10px;
   background-color: #363636 !important;
   height: 58px;
   margin-top: 20px;
