@@ -1000,6 +1000,7 @@ margin-top: 2px;
 .logo-column {
   width: 20%;
   vertical-align: middle !important;
+	z-index: 1;
 }
 
 .logo-column img {
